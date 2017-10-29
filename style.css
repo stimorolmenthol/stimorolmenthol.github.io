@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.header-wrapper {
+    background: url('img/header-bg.png') repeat;
+}
+
+.logo-wrapper {
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.logo-wrapper a {
+    display: inline-block;
+}
+
+.logo-wrapper a img {
+    width: 100%;
+}
+
+.logo-wrapper p a {
+    font-size: 13px;
+    color: #878484;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-center {
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.search-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.search-wrapper input[type="text"] {
+    border: 1px solid #dcdcdc;
+    padding: 7px 34px 5px 17px;
+    line-height: 26px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.header-center h3 {
+    color: #bf2622;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.header-center p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.header-right {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header-right .phone {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.header-right .phone img {
+    max-height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.header-right .phone span {
+    color: #bf2622;
+
+}
+
+.socials {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.socials .item {
+    max-width: 25px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.socials .item img {
+    max-width: 100%;
+}
+
+.cart-wrapper {
+    margin-top: 20px;
+}
+
+.cart-wrapper .cart {
+    display: inline-block;
+}
+
+.cart-wrapper .cart .text {
+    background: #333;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 46px;
+    padding: 0 10px;
+}
+
+.cart-wrapper .logo {
+    display: inline-block;
+    background-color: #bf2622;
+    padding: 0 10px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.cart-wrapper .logo img {
+    width: 20px;
+}
+
+.menu {
+    background-color: #D3D3D3;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+    border-top: 1px solid #333333;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    color: #bf2622;
+}
+
+.menu ul li a span {
+    color: #bf2622;
+}
+
+.categories {
+    display: inline-block;
+    width: 300px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.categories  li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #7d7b7b;
+    background-color: #f6f6f6;
+    display: block;
+    text-decoration: none;
+    padding: 5px 0;
+    text-transform: uppercase;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.categories li a:hover {
+   background-color: #A52A2A;
+   color: #ffffff;
+}
+
+.items {
+    padding: 15px;
+    width: 100%;
+}
+
+.items .item {
+    border-bottom: 2px solid #a0a7ab;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+}
+
+.items .item img {
+    width: 100%;
+}
+
+.items .item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.items .item p {
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    color: red;
+    padding-left: 10px;
+}
+
+.info {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.info p {
+    margin: 10px 0;
+}
+
+.info ul {
+    margin-left: 20px;
+}
+
+.footer-wrapper {
+    background: url('img/header-bg.png') repeat #f6f6f6;
+    padding: 10px 0 20px 0;
+    
+}
+.links-block {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-wrapper .links-block ul li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.footer-wrapper .links-block ul li a {
+    color: #000000;
+    text-align: center;
+}
+
+.footer-wrapper .links-block ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-wrapper .reg-info {
+    font-size: 11px;
+    line-height: 13px;
+    color: #777;
+}
+
+.footer-wrapper .work-time {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-wrapper .work-time span {
+    color: #bf2622;
+}
+
+.footer-wrapper .rights-reserved {
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+.footer-wrapper .rights-reserved span {
+    color: #bf2622;
+}
+
+.bx-wrapper {
+    margin-top: 30px;
+}
+
+.slider img {
+    width: 100%;
+}

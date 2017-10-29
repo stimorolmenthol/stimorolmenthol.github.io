@@ -1,0 +1,56 @@
+.payment {
+    padding: 20px 0;
+    min-height: 630px;
+}
+
+.payment h1 {
+    color: red;
+    text-align: center;
+}
+
+.payment h2 {
+    text-align: center;
+    color: #B22222;
+    margin: 20px 0;
+}
+
+.payment h3 {
+    color: #B22222;
+    margin: 10px;
+}
+
+.payment p {
+    margin: 20px 0;
+}
+
+.payment p span {
+    font-weight: bold;
+}
+
+.discounts {
+    text-align: center;
+    min-height: 600px;
+}
+
+.discounts p span {
+    font-weight: bold;
+ 
+}
+
+.discounts img {
+    width: 300px;
+    margin: 30px 0;
+}
+
+.discounts h3 {
+    color: #B22222;
+    margin: 20px 0 ;
+}
+
+.discounts p {
+    margin: 20px 0;
+}
+
+.payment ol li {
+    margin: 20px 0;
+}
