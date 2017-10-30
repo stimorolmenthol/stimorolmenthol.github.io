@@ -159,6 +159,12 @@ body a {
     margin: 10px 20px;
 }
 
+@media (max-width: 768px) {
+    .menu ul li {
+        width: 100%;
+    }
+}
+
 .menu ul li a {
     color: #000000;
     text-transform: uppercase;
@@ -168,7 +174,7 @@ body a {
     color: #bf2622;
 }
 
-.menu ul li a span {
+.menu ul li a.active {
     color: #bf2622;
 }
 
