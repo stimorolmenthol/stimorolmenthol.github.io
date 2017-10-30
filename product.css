@@ -2,6 +2,20 @@
     width: 100%;
 }
 
+.product-img-wrapper {
+    margin: 20px 0;
+}
+
+@media (max-width: 1200px) {
+    .product-img-wrapper {
+        text-align: center;
+    }
+
+    .product-img {
+        max-width: 200px;
+    }
+}
+
 .product-info {
     padding: 20px;
 }
@@ -38,6 +52,14 @@
 .add-to-cart {
     display: inline-block;
     float: right;
+    margin: 20px 0;
+}
+
+@media (max-width: 1200px) {
+    .add-to-cart {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .add-to-cart input {
