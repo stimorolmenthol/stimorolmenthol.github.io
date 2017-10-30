@@ -9,8 +9,10 @@ $(function() {
          }
       );
    }
-   
-   $('.product-img-wrapper').zoom({url: 'img/grommets.jpg'});
+
+   if ($('.product-img-wrapper').length > 0) {
+      $('.product-img-wrapper').zoom({url: 'img/grommets.jpg'});
+   }
    
    $('.add-to-cart .plus').click(function () {
       var current_value = parseInt($('#add-to-cart-input').val());
