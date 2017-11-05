@@ -167,6 +167,7 @@ body a {
 @media (max-width: 960px) {
     .menu ul li {
         width: 100%;
+        margin: 10px 0;
     }
 }
 
@@ -250,7 +251,7 @@ body a {
 
 .add-to-cart-wrapper a {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     padding: 10px;
     background: #bf2622;
@@ -260,6 +261,10 @@ body a {
 }
 
 @media (max-width: 1200px) {
+    .items .item {
+        margin: 0;
+    }
+
     .add-to-cart-wrapper {
         display: block;
         height: auto;
