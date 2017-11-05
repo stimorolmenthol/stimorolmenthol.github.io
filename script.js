@@ -42,8 +42,8 @@ $(function() {
    $('.categories li a').click(function () {
       var category = $(this).data('category');
 
-      $('.items .item').hide();
-      $('.items .item[data-category="' + category + '"]').show();
+      $('.items .item').parent().hide();
+      $('.items .item[data-category="' + category + '"]').parent().fadeIn({ duration: 1000 });
 
       return false;
    });

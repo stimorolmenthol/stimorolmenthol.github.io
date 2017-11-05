@@ -262,7 +262,7 @@ body a {
 
 @media (max-width: 1200px) {
     .items .item {
-        margin: 0;
+        margin: 10px 0;
     }
 
     .add-to-cart-wrapper {
