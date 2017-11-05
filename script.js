@@ -11,7 +11,7 @@ $(function() {
    }
 
    if ($('.product-img-wrapper').length > 0) {
-      $('.product-img-wrapper').zoom({url: 'img/grommets.jpg'});
+      $('.product-img-wrapper').zoom({url: $('.product-img-wrapper').find('img').attr('src')});
    }
    
    $('.add-to-cart .plus').click(function () {
