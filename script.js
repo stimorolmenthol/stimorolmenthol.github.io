@@ -42,8 +42,12 @@ $(function() {
    $('.categories li a').click(function () {
       var category = $(this).data('category');
 
-      $('.items .item').parent().hide();
-      $('.items .item[data-category="' + category + '"]').parent().fadeIn({ duration: 1000 });
+      if (!category) {
+         $('.items .item').parent().fadeIn({ duration: 1000 });
+      } else {
+         $('.items .item').parent().hide();
+         $('.items .item[data-category="' + category + '"]').parent().fadeIn({ duration: 1000 });
+      }
 
       return false;
    });
