@@ -30,5 +30,21 @@ $(function() {
       $('#add-to-cart-input').val(current_value - 1);
       return false;
    });
-}
-);
+
+   if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('.items .item').hover(function () {
+         $(this).find('.add-to-cart-wrapper').slideDown();
+      }, function () {
+         $(this).find('.add-to-cart-wrapper').slideUp();
+      });
+   }
+
+   $('.categories li a').click(function () {
+      var category = $(this).data('category');
+
+      $('.items .item').hide();
+      $('.items .item[data-category="' + category + '"]').show();
+
+      return false;
+   });
+});
